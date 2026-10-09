@@ -42,7 +42,7 @@ Restart Claude Code to apply. An update is picked up when `version` in `.claude-
 The one setting you probably want is the vault folder for the second brain box:
 
 ```bash
-claude plugin configure agent-deck
+claude plugin configure agent-deck@agent-deck
 ```
 
 Set `vaultPath` to your Obsidian vault, for example `C:/Users/you/Documents/Vault`. Left empty, the box only shows a hint. Other settings (layout, palette, which panels show, whether the pane opens on start) are listed by the same command.

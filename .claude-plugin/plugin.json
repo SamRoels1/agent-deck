@@ -1,6 +1,6 @@
 {
   "name": "agent-deck",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Agent dashboard (derived from Flightdeck by Stephen Casella, MIT) plus routing of simple subagent tasks to cheaper models and a vault overview",
   "author": {
     "name": "SamRoels1",

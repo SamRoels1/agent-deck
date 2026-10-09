@@ -325,7 +325,7 @@ export const register: Register = (on, options) => {
     }
     if (verb === 'vault') {
       if (vaultRoot) scanVault(p => $.fs.list(p), vaultRoot).then(v => update($, vault, () => v)).catch(() => undefined)
-      return { text: vaultRoot ? `Rescanning the vault at ${vaultRoot}.` : 'No vaultPath is set. Set it in the plugin settings (claude plugin configure agent-deck).' }
+      return { text: vaultRoot ? `Rescanning the vault at ${vaultRoot}.` : 'No vaultPath is set. Set it in the plugin settings (claude plugin configure agent-deck@agent-deck).' }
     }
     if (verb === 'layout') {
       const layout: Layout | null = arg === 'compact' || arg === 'wide' || arg === 'auto' || arg === 'mini' ? arg : null
