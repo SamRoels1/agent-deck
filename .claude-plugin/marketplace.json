@@ -1,0 +1,12 @@
+{
+  "name": "agent-deck",
+  "description": "Agent dashboard and subagent model routing for Claude Code",
+  "owner": { "name": "SamRoels1" },
+  "plugins": [
+    {
+      "name": "agent-deck",
+      "source": "./",
+      "description": "Dashboard for Claude Code: agents, todo list, git, model routing and an Obsidian vault overview, plus routing of simple subagent tasks to cheaper models"
+    }
+  ]
+}

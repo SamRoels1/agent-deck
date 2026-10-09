@@ -1,0 +1,5 @@
+# Written by Claude Code each time it loads the mod (type declarations for the editor)
+.claude-plugin/types/
+tsconfig.json
+node_modules/
+*.log
